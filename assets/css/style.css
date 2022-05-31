@@ -82,6 +82,8 @@ section {
     border-style: solid;
     border-width: 3px;
     border-color: #024e76;
+    width:40%;
+    margin: 3.5%;
     /* could shorthand above code to: 
     border: solid 3px #025e76 */
 }
@@ -115,10 +117,11 @@ section {
 .section-title{
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%
 }
 .primary-border{
     border-color: #fce138;
@@ -127,19 +130,16 @@ section {
     border-color: #39a6b2;
 }
 
-.intro{
-    text-align: center;
-}
 .intro p{
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .steps{
-    text-align: center;
     background:#fce138;
 }
 .steps div{
@@ -162,15 +162,10 @@ section {
     font-size:38px;
 }
 
-.text-left {
-    text-align: left;
-}
-.text-right {
-    text-align: right;
-}
-.trainers {
-    text-align: center;
-}
+
+/*.trainers {
+
+}*/
 .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -203,7 +198,6 @@ section {
 
 .contact {
     background-color: #024e76;
-    text-align: center;
 }
 .contact h2 {
     color:#fce138;
@@ -255,4 +249,14 @@ footer div {
 }
 footer a {
     color: #024e76;
+}
+
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.flex-row {
+    display: flex;
 }

@@ -50,6 +50,19 @@ section {
     background-position: center;
     position: relative;
 }
+.hero-cta{
+    position: absolute;
+    bottom: 120px;
+    /* right: 140px; */
+    width: 500px;
+    text-align:right;
+}
+.hero-cta h2{
+    color:#fce138;
+}
+.hero-cta p{
+    color: white;
+}
 .hero-form{
     background-color: #fce138;
     padding: 20px;
